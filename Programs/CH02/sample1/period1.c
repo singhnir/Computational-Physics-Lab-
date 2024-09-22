@@ -15,7 +15,7 @@ triangle()
 		else
 		fprintf(p,"%f  %f\n", i, 2.0-t );
 	}
-
+        // for using 'index' functionality in gnuplot, 2 new lines are default delimiator
 	fprintf(p,"\n \n");
 }
 
