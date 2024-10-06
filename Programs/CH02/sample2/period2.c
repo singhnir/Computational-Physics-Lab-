@@ -49,5 +49,6 @@ main ()
 p = fopen("period.txt","w");
 triangle();
 circle();
+fclose(p);
 return 0;
 }
